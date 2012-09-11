@@ -1,5 +1,5 @@
 MessagingApplication::Application.routes.draw do
-  resources :car_plates
+  resources :number_plates
 
   resources :users
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120911145345) do
+ActiveRecord::Schema.define(:version => 20120911202756) do
 
   create_table "car_plates", :force => true do |t|
     t.string   "country"
@@ -30,6 +30,13 @@ ActiveRecord::Schema.define(:version => 20120911145345) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "number_plates", :force => true do |t|
+    t.string   "country"
+    t.boolean  "authenified"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
@@ -37,6 +44,7 @@ ActiveRecord::Schema.define(:version => 20120911145345) do
     t.string   "car_plate"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.date     "birthday"
   end
 
 end

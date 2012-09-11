@@ -1,0 +1,27 @@
+<h1>Listing number_plates</h1>
+
+<table>
+  <tr>
+    <th>Country</th>
+    <th>Authenified</th>
+    <th>Id</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @number_plates.each do |number_plate| %>
+  <tr>
+    <td><%= number_plate.country %></td>
+    <td><%= number_plate.authenified %></td>
+    <td><%= number_plate.id %></td>
+    <td><%= link_to 'Show', number_plate %></td>
+    <td><%= link_to 'Edit', edit_number_plate_path(number_plate) %></td>
+    <td><%= link_to 'Destroy', number_plate, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Number plate', new_number_plate_path %>
