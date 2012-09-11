@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  country: MyString
+  validated: false
+  car_ident_num: MyString
+
+two:
+  country: MyString
+  validated: false
+  car_ident_num: MyString
