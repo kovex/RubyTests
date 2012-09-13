@@ -1,0 +1,21 @@
+<h2>Nachrichtendetails</h2>
+<p>
+<b>Sender:</b>
+<%= @message.sender %>
+</p>
+<p>
+<b>Empfänger:</b>
+<%= @message.receiver %>
+</p>
+<p>
+<b>Kommentar:</b>
+<%= @bookmark.comment %>
+</p>
+<p>
+<b>Erstellt am:</b>
+<%= @bookmark.created_at %>
+</p>
+<p>
+<b>Geändert am:</b>
+<%= @bookmark.updated_at %>
+</p>

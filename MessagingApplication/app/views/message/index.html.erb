@@ -1,0 +1,4 @@
+<h2>Nachrichtenübersicht</h2>
+<% @messages.each do |message|%> 
+	<li><%= link_to message.sender, "/messages/#{message.id}" %></li>
+<% end%>

@@ -1,0 +1,22 @@
+<h2>Neue Nachricht</h2>
+<% form_for(@message) do |f| %>
+	<p>
+	<%= f.label :sender %>
+	<%= f.text_field :sender %>
+	</p>
+	<p>
+	<%= f.label :receiver %>
+	<%= f.text_field :receiver %>
+	</p>
+	<p>
+	<%= f.label :subject %>
+	<%= f.text_field :subject%>
+	</p>
+	<p>
+	<%= f.label :content %>
+	<%= f.text_area :content %>
+	</p>
+	<p>
+	<%= f.submit %>
+	</p>
+<% end %>
