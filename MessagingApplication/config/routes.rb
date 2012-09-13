@@ -1,10 +1,10 @@
 MessagingApplication::Application.routes.draw do
-  resources :number_plates
+  
+  get "messages/edit"
 
-  resources :users
+  get "messages/new"
 
-  resources :messages
-
+  get "messages" => "messages#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

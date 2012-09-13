@@ -1,0 +1,4 @@
+class NumberPlate < ActiveRecord::Base
+  belongs_to :user
+  attr_accessible :authenified, :country, :id
+end
