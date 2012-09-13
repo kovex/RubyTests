@@ -1,5 +1,0 @@
-class User < ActiveRecord::Base
-  has_many :messages
-  has_many  :car_plates
-  attr_accessible :car_plate, :email, :name, :password
-end
