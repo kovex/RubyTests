@@ -1,4 +1,15 @@
 MessagingApplication::Application.routes.draw do
+  get "messages" => "message#index"
+
+  get "messages/new" => "message#new"
+
+  get "messages/delete"
+    
+  get "messages/:id" => "message#show"
+  
+  post "messages" => "message#create"
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
