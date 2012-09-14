@@ -1,5 +1,9 @@
 <h2>Nachrichtendetails</h2>
 <p>
+<b>Gesendet am:</b>
+<%= @message.created_at.strftime("%d %b. %Y um %H:%M") %>
+</p>
+<p>
 <b>Sender:</b>
 <%= @message.sender %>
 </p>
@@ -15,11 +19,5 @@
 <b>Nachricht:</b>
 <%= @message.content %>
 </p>
-<p>
-<b>Erstellt am:</b>
-<%= @message.created_at %>
-</p>
-<p>
-<b>Geändert am:</b>
-<%= @message.updated_at %>
-</p>
+
+<%= back_to_overview %>

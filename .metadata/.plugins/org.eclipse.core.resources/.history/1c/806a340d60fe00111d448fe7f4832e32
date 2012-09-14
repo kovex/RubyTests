@@ -1,0 +1,19 @@
+<h2>Nachrichtenübersicht</h2>
+<table>
+	<tr>
+		<th>Gesendet</th>
+		<th>Von</th>
+		<th>Betreff</th>
+		<th></th>
+	</tr>	
+<% @messages.each do |message|%> 
+	<tr>
+		<td><%= message.created_at.strftime("%d %b. %Y um %H:%M") %></td>
+		<td><%= message.sender %></th>
+		<td><%= link_to message.subject, "/messages/#{message.id}" %></td>
+	</tr>	
+<% end%>
+</table>
+<br /><p>
+<%= link_to "Neue Nachricht erstellen", new_message_path %>
+</p>

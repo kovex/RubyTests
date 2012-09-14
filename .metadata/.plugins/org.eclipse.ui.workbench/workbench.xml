@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
-<window height="940" maximized="true" width="1200" x="150" y="110">
+<window height="940" maximized="true" width="1200" x="383" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,74 +17,45 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.aptana.editor.erb.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.ruby" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.text" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.erb.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.ruby" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1347564579315" focus="true" label="Workspace - Web">
+<page aggregateWorkingSetId="Aggregate for window 1347372916058" focus="true" label="Workspace - Web">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.ruby" name="message_controller.rb" partName="message_controller.rb" path="C:/Users/Alex/Documents/RubyProjects/MessagingApplication/app/controllers/message_controller.rb" title="message_controller.rb" tooltip="MessagingApplication/app/controllers/message_controller.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MessagingApplication/app/controllers/message_controller.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="356" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.erb.html" name="index.html.erb" partName="index.html.erb" path="C:/Users/Alex/Documents/RubyProjects/MessagingApplication/app/views/message/index.html.erb" title="index.html.erb" tooltip="MessagingApplication/app/views/message/index.html.erb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MessagingApplication/app/views/message/index.html.erb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="95" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.ruby" name="routes.rb" partName="routes.rb" path="C:/Users/Alex/Documents/RubyProjects/MessagingApplication/config/routes.rb" title="routes.rb" tooltip="MessagingApplication/config/routes.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MessagingApplication/config/routes.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="234" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.ruby" name="message.rb" partName="message.rb" path="C:/Users/Alex/Documents/RubyProjects/MessagingApplication/app/models/message.rb" title="message.rb" tooltip="MessagingApplication/app/models/message.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MessagingApplication/app/models/message.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="166" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.erb.html" name="show.html.erb" partName="show.html.erb" path="C:/Users/Alex/Documents/RubyProjects/MessagingApplication/app/views/message/show.html.erb" title="show.html.erb" tooltip="MessagingApplication/app/views/message/show.html.erb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MessagingApplication/app/views/message/show.html.erb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="226" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.erb.html" name="new.html.erb" partName="new.html.erb" path="C:/Users/Alex/Documents/RubyProjects/MessagingApplication/app/views/message/new.html.erb" title="new.html.erb" tooltip="MessagingApplication/app/views/message/new.html.erb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MessagingApplication/app/views/message/new.html.erb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="357" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer"/>
-<view id="com.aptana.snippets.ui.views.SnippetsView" partName="Snippets"/>
+<view id="com.aptana.snippets.ui.views.SnippetsView" partName="Snippets">
+<viewState/>
+</view>
 <view id="com.aptana.terminal.views.terminal" partName="Terminal">
 <viewState>
 <title>Terminal</title>
-<workingDirectory>C:\Users\Alex\Documents\RubyProjects\MessagingApplication</workingDirectory>
+<workingDirectory>C:\Users\AlexanderPaharukov\Documents\Eigene\MessagingApplication</workingDirectory>
 </viewState>
 </view>
-<view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
+<view id="com.aptana.samples.ui.SamplesView" partName="Samples">
+<viewState/>
+</view>
 <view id="com.aptana.terminal.views.terminal:MessagingApplication" partName="MessagingApplication">
 <viewState>
 <title>MessagingApplication</title>
-<workingDirectory>C:\Users\Alex\Documents\RubyProjects\MessagingApplication</workingDirectory>
+<workingDirectory>C:\Users\AlexanderPaharukov\Documents\Eigene\MessagingApplication</workingDirectory>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -104,26 +75,27 @@
 <element path="/MessagingApplication/app/controllers"/>
 <element path="/MessagingApplication/app/models"/>
 <element path="/MessagingApplication/app/views"/>
-<element path="/MessagingApplication/app/views/message"/>
 <element path="/MessagingApplication/config"/>
+<element path="/MessagingApplication/db"/>
+<element path="/MessagingApplication/db/migrate"/>
 </expanded>
 <selection>
-<element path="/MessagingApplication/app/views/message/new.html.erb"/>
+<element path="/MessagingApplication"/>
 </selection>
 </project>
 </viewState>
 </view>
-<view id="com.aptana.terminal.views.terminal:139c12cf4fa" partName="MessagingApplication">
+<view id="com.aptana.terminal.views.terminal:139b5c8e7c6" partName="MessagingApplication">
 <viewState>
 <title>MessagingApplication</title>
-<workingDirectory>C:\Users\Alex\Documents\RubyProjects\MessagingApplication</workingDirectory>
+<workingDirectory>C:\Users\AlexanderPaharukov\Documents\Eigene\MessagingApplication</workingDirectory>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.editor.erb.html" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.explorer.view" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -169,7 +141,7 @@
 <view id="com.aptana.terminal.views.terminal"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="com.aptana.terminal.views.terminal:MessagingApplication"/>
-<view id="com.aptana.terminal.views.terminal:139c12cf4fa"/>
+<view id="com.aptana.terminal.views.terminal:139b5c8e7c6"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.aptana.samples.ui.SamplesView"/>
 <view id="com.aptana.snippets.ui.views.SnippetsView"/>
@@ -194,14 +166,19 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19982994" ratioLeft="235" ratioRight="941" relationship="2" relative="left"/>
-<info folder="true" part="terminalArea" ratio="0.75" ratioLeft="636" ratioRight="212" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.aptana.terminal.views.terminal:MessagingApplication" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b17a1a" ratio="0.20743845" ratioLeft="396" ratioRight="1513" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="com.aptana.browser.views.webbrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="terminalArea" ratio="0.6348195" ratioLeft="598" ratioRight="344" relationship="4" relative="org.eclipse.ui.internal.ViewStack@b17a1a">
+<folder activePageID="com.aptana.terminal.views.terminal:139b5c8e7c6" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.aptana.terminal.views.terminal" label="Terminal"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="com.aptana.terminal.views.terminal:MessagingApplication" label="MessagingApplication"/>
-<page content="com.aptana.terminal.views.terminal:139c12cf4fa" label="MessagingApplication"/>
+<page content="com.aptana.terminal.views.terminal:139b5c8e7c6" label="MessagingApplication"/>
 <page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -213,8 +190,9 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@10010ec" ratio="0.75" ratioLeft="636" ratioRight="212" relationship="4" relative="left">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.24958402" ratioLeft="150" ratioRight="451" relationship="4" relative="org.eclipse.ui.internal.ViewStack@b17a1a"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1a550f9" ratio="0.75" ratioLeft="636" ratioRight="212" relationship="4" relative="left">
+<folder activePageID="com.aptana.samples.ui.SamplesView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
 <page content="com.aptana.snippets.ui.views.SnippetsView" label="Snippets"/>
@@ -230,166 +208,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/MessagingApplication/app/controllers/message_controller.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" path="/MessagingApplication/app/views/message/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/MessagingApplication/config/routes.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/MessagingApplication/app/models/message.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" path="/MessagingApplication/app/views/message/show.html.erb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" path="/MessagingApplication/app/views/message/new.html.erb"/>
-</editors>
-<item historyLabel="routes.rb" index="2">
-<position info="not_deleted" x="945" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position/>
-</item>
-<item historyLabel="message.rb" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="message.rb" index="3">
-<position info="not_deleted" x="161" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="104" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="1">
-<position info="not_deleted" x="81" y="42"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="131" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="189" y="0"/>
-</item>
-<item historyLabel="message.rb" index="3">
-<position info="not_deleted" x="161" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="376" y="0"/>
-</item>
-<item historyLabel="message.rb" index="3">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="376" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="4">
-<position info="not_deleted" x="226" y="0"/>
-</item>
-<item historyLabel="routes.rb" index="2">
-<position/>
-</item>
-<item historyLabel="message.rb" index="3">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="376" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="message.rb" index="3">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="131" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="309" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="routes.rb" index="2">
-<position info="not_deleted" x="234" y="0"/>
-</item>
-<item historyLabel="message.rb" index="3">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="4">
-<position info="not_deleted" x="226" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="309" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="routes.rb" index="2">
-<position/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="309" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="309" y="0"/>
-</item>
-<item historyLabel="routes.rb" index="2">
-<position info="not_deleted" x="124" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="85" y="0"/>
-</item>
-<item historyLabel="routes.rb" index="2">
-<position info="not_deleted" x="123" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="318" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="4">
-<position info="not_deleted" x="226" y="0"/>
-</item>
-<item historyLabel="message.rb" index="3">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="routes.rb" index="2">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="318" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="318" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="routes.rb" index="2">
-<position info="not_deleted" x="122" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="318" y="0"/>
-</item>
-<item historyLabel="message_controller.rb" index="0">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="27" y="0"/>
-</item>
-<item historyLabel="routes.rb" index="2">
-<position info="not_deleted" x="234" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="4">
-<position info="not_deleted" x="226" y="0"/>
-</item>
-<item active="true" historyLabel="new.html.erb" index="5">
-<position info="not_deleted" x="27" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -406,23 +225,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="new.html.erb" tooltip="MessagingApplication/app/views/message/new.html.erb">
-<persistable path="/MessagingApplication/app/views/message/new.html.erb"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="edit.html.erb" tooltip="MessagingApplication/app/views/messages/edit.html.erb">
+<persistable path="/MessagingApplication/app/views/messages/edit.html.erb"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="show.html.erb" tooltip="MessagingApplication/app/views/message/show.html.erb">
-<persistable path="/MessagingApplication/app/views/message/show.html.erb"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="MessagingApplication/app/views/messages/index.html.erb">
+<persistable path="/MessagingApplication/app/views/messages/index.html.erb"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="message.rb" tooltip="MessagingApplication/app/models/message.rb">
-<persistable path="/MessagingApplication/app/models/message.rb"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="messages_controller.rb" tooltip="MessagingApplication/app/controllers/messages_controller.rb">
+<persistable path="/MessagingApplication/app/controllers/messages_controller.rb"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="routes.rb" tooltip="MessagingApplication/config/routes.rb">
 <persistable path="/MessagingApplication/config/routes.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="MessagingApplication/app/views/message/index.html.erb">
-<persistable path="/MessagingApplication/app/views/message/index.html.erb"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.text" name="helper.txt" tooltip="MessagingApplication/helper.txt">
+<persistable path="/MessagingApplication/helper.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="message_controller.rb" tooltip="MessagingApplication/app/controllers/message_controller.rb">
-<persistable path="/MessagingApplication/app/controllers/message_controller.rb"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="_form.html.erb" tooltip="MessagingApplication/app/views/users/_form.html.erb">
+<persistable path="/MessagingApplication/app/views/users/_form.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="users_helper.rb" tooltip="MessagingApplication/app/helpers/users_helper.rb">
+<persistable path="/MessagingApplication/app/helpers/users_helper.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="new.html.erb" tooltip="MessagingApplication/app/views/users/new.html.erb">
+<persistable path="/MessagingApplication/app/views/users/new.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Gemfile.lock" tooltip="MessagingApplication/Gemfile.lock">
+<persistable path="/MessagingApplication/Gemfile.lock"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="MessagingApplication/app/views/users/index.html.erb">
+<persistable path="/MessagingApplication/app/views/users/index.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="show.html.erb" tooltip="MessagingApplication/app/views/users/show.html.erb">
+<persistable path="/MessagingApplication/app/views/users/show.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="users_controller.rb" tooltip="MessagingApplication/app/controllers/users_controller.rb">
+<persistable path="/MessagingApplication/app/controllers/users_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="user.rb" tooltip="MessagingApplication/app/models/user.rb">
+<persistable path="/MessagingApplication/app/models/user.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Gemfile" tooltip="MessagingApplication/Gemfile">
+<persistable path="/MessagingApplication/Gemfile"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" name="show.html.erb" tooltip="MessagingApplication/app/views/messages/show.html.erb">
+<persistable path="/MessagingApplication/app/views/messages/show.html.erb"/>
 </file>
 </mruList>
 </workbench>

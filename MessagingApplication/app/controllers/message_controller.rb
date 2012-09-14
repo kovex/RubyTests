@@ -12,12 +12,15 @@ class MessageController < ApplicationController
   end
 
   def delete
+    @message = Message.find(params[:id])
+    @message.destroy
+    redirect_to messages_path
   end
   
   def create
     @message = Message.new(params[:message])
-    if @messgae.save
-      redirect_to message_path
+    if @message.save
+      redirect_to messages_path
     else
       render "new"
     end
