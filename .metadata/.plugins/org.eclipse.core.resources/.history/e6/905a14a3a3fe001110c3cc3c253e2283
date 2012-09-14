@@ -1,5 +1,0 @@
-<h2>Neuen Benutzer anlegen</h2>
-<%= form_for @user do |f|%>
-	<% if @user.errors.any?%>
-	<% end -%>
-<%end%>
