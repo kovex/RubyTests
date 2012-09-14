@@ -1,3 +1,0 @@
-class Message < ActiveRecord::Base
-  validates :sender, :receiver, :subject, :content. presence: true
-end

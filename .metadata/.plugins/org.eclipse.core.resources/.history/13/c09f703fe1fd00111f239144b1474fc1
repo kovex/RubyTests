@@ -1,4 +1,0 @@
-<h2>Nachrichtenübersicht</h2>
-<% @messages.each do |message|%> 
-	<li><%= message %></li>
-<% end%>

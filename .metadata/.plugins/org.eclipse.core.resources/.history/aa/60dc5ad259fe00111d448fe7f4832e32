@@ -1,8 +1,0 @@
-# encoding: utf-8
-module MessageHelper
-  def back_to_overveiw
-    content_tag(:p,
-    link_to("Zurück zur Liste", messages_path),
-    class: "subNavigation")
-  end
-end

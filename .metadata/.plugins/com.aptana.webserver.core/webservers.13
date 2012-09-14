@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<servers>
-<server host="0.0.0.0" port="3000" project="C:/Users/Alex/Documents/RubyProjects/MessagingApplication" type="org.radrails.rails.railsServer">
-<name>MessagingApplication</name>
-</server>
-</servers>
